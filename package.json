@@ -1,0 +1,28 @@
+{
+  "name": "divi-intensivregister-data",
+  "version": "0.0.1",
+  "description": "Scraper für Daten des DIVI-Intensivregisters",
+  "main": "src/getCountryData.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mojoaxel/DIVI-Intensivregister-data.git"
+  },
+  "keywords": [
+    "WirVsVirus",
+    "DIVI"
+  ],
+  "author": "Alexander WUnschik <dev@wunschik.net>",
+  "license": "AGPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/mojoaxel/DIVI-Intensivregister-data/issues"
+  },
+  "homepage": "https://github.com/mojoaxel/DIVI-Intensivregister-data#readme",
+  "dependencies": {
+    "deepmerge": "^4.2.2",
+    "request": "^2.88.2",
+    "request-promise": "^4.2.5"
+  }
+}
